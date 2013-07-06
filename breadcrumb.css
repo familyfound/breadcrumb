@@ -1,0 +1,20 @@
+
+.breadcrumb .item i {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-bottom: -3px;
+  margin-left: 3px;
+}
+
+.breadcrumb .item .pedigree-side {
+  background-image: url('pedigree-side.png');
+}
+
+.breadcrumb .item .pedigree-up {
+  background-image: url('pedigree-up.png');
+}
+
+.breadcrumb .item .pedigree-down {
+  background-image: url('pedigree-down.png');
+}

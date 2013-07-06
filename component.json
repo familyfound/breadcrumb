@@ -1,0 +1,29 @@
+{
+  "name": "breadcrumb",
+  "repo": "familyfound/breadcrumb",
+  "description": "A breadcrumb angular component",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "jaredly/angularjs": "*",
+    "gorillatron/extend": "*"
+  },
+  "development": {
+    "chaijs/chai": "*",
+    "familyfound/ng-bootstrap": "*"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js",
+    "template.js"
+  ],
+  "styles": [
+    "breadcrumb.css"
+  ],
+  "files": [
+    "pedigree-up.png",
+    "pedigree-side.png",
+    "pedigree-down.png"
+  ]
+}

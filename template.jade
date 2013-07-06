@@ -1,0 +1,16 @@
+div.breadcrumb(ng-switch="", on="history.length > front + back")
+  ul.breadcrumb(ng-switch-when="true")
+    li(ng-repeat='item in history.slice(0, front) track by $index')
+      a.item(href='#view=ancestor&person={{item.id}}')
+        span {{ item.name }}
+        i(class="pedigree-{{ item.direction }}")
+    | ...
+    li(ng-repeat='item in history.slice(-back) track by $index')
+      a.item(href='#view=ancestor&person={{item.id}}')
+        span {{ item.name }}
+        i(class="pedigree-{{ item.direction }}")
+  ul.breadcrumb(ng-switch-when="false")
+    li(ng-repeat='item in history track by $index')
+      a.item(href='#view=ancestor&person={{item.id}}')
+        span {{ item.name }}
+        i(class="pedigree-{{ item.direction }}")
