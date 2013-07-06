@@ -6,7 +6,11 @@
   "keywords": [],
   "dependencies": {
     "jaredly/angularjs": "*",
-    "gorillatron/extend": "*"
+    "gorillatron/extend": "*",
+    "component/tip": "*",
+    "CamShaft/bootstrap-sprites": "*",
+    "component/aurora-tip": "*",
+    "component/query": "*"
   },
   "development": {
     "chaijs/chai": "*",
@@ -20,10 +24,5 @@
   ],
   "styles": [
     "breadcrumb.css"
-  ],
-  "files": [
-    "pedigree-up.png",
-    "pedigree-side.png",
-    "pedigree-down.png"
   ]
 }
