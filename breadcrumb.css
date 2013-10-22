@@ -22,7 +22,7 @@
 }
 
 .breadcrumb-tip .icon,
-.breadcrumb .icon {
+.breadcrumb-container .icon {
   display: inline-block;
   width: 16px;
   height: 16px;
@@ -30,16 +30,16 @@
 }
 
 .breadcrumb-tip .pedigree-side,
-.breadcrumb .pedigree-side {
+.breadcrumb-container .pedigree-side {
   background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAA/SURBVDiNY/z//z8DJYCJIt2jBkAANBZsGBgYTkKxzf///xmwYWzqYBInGRgY/pOIT/7//38QeIFxNCUOAgMApZRRi3N8MTMAAAAASUVORK5CYII=');
 }
 
 .breadcrumb-tip .pedigree-up,
-.breadcrumb .pedigree-up {
+.breadcrumb-container .pedigree-up {
   background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAABTSURBVDiNY/z//z8DJYCJIt3UMIAB6oX/EOZ/kvkUu4AFmcPIyIg3RLHJU+wCRuRohNnw//9/RnwuQJanbhig20QMoG4Y4HIJrjChvQuIAQOfmQAiDzr5QahL9AAAAABJRU5ErkJggg==');
 }
 
 .breadcrumb-tip .pedigree-down,
-.breadcrumb .pedigree-down {
+.breadcrumb-container .pedigree-down {
   background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAABWSURBVDiN1ZMxDoAwDAN9TGz8/6/QY2VpixQQwmOinBwrQU1FS2l6BgAEhhbfdfAPAGpmQfWk8uwKKiqX0pZkHfSnGRxJ2m0HHUDpkPayA3UI4PNvPAHGgiYRiqbtTwAAAABJRU5ErkJggg==');
 }
